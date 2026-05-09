@@ -299,8 +299,8 @@ g_pfnVectors:
 	.weak	CAN1_SCE_IRQHandler
 	.thumb_set CAN1_SCE_IRQHandler,Default_Handler
 
-	.weak	EXTI9_5_IRQHandler
-	.thumb_set EXTI9_5_IRQHandler,Default_Handler
+	/* .weak	EXTI9_5_IRQHandler
+	.thumb_set EXTI9_5_IRQHandler,Default_Handler */
 
 	.weak	TIM1_BRK_IRQHandler
 	.thumb_set TIM1_BRK_IRQHandler,Default_Handler

@@ -78,6 +78,7 @@ C_SOURCES = user/main.c \
 	STM32F10x_FWLib/src/misc.c \
 	STM32F10x_FWLib/src/stm32f10x_gpio.c \
 	STM32F10x_FWLib/src/stm32f10x_tim.c \
+	STM32F10x_FWLib/src/stm32f10x_exti.c \
 	STM32F10x_FWLib/src/stm32f10x_rcc.c
 
 C_OBJS = $(C_SOURCES:.c=.o)
